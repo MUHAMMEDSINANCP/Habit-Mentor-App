@@ -32,9 +32,6 @@ dependencies:
   fl_chart: ^0.55.2
   flutter:
     sdk: flutter
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  path_provider: ^2.1.1
 
 dev_dependencies:
   flutter_lints: ^2.0.0
