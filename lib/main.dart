@@ -4,7 +4,7 @@ import 'package:habit_mentor_app/pages/homePage.dart';
 import 'package:habit_mentor_app/pages/profilePage.dart';
 import 'package:habit_mentor_app/pages/progressPage.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -16,16 +16,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData.from(
+          colorScheme:
+              const ColorScheme.light().copyWith(primary: Colors.deepPurple)),
       home: NavigationScreen(
-        currentIndex: 3,
+        currentIndex: 0,
       ),
     );
   }
 }
 
+// ignore: must_be_immutable
 class NavigationScreen extends StatefulWidget {
   NavigationScreen({super.key, required this.currentIndex});
   int currentIndex;

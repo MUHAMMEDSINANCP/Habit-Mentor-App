@@ -14,19 +14,25 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
+        physics: BouncingScrollPhysics(),
         padding: EdgeInsets.fromLTRB(15, 50, 15, 20),
         children: [
-          CircleAvatar(
-            radius: 150,
-            backgroundColor: Colors.purpleAccent,
-            backgroundImage: NetworkImage(
-                'https://cdn2.iconfinder.com/data/icons/avatars-60/5985/12-Delivery_Man-512.png'),
+          ClipOval(
+            child: CircleAvatar(
+              radius: 70,
+              backgroundColor: Colors.purpleAccent,
+              child: Image.network(
+                'https://cdn2.iconfinder.com/data/icons/avatars-60/5985/12-Delivery_Man-512.png',
+                fit: BoxFit
+                    .cover, // Use BoxFit.cover to fit the image within the CircleAvatar
+              ),
+            ),
           ),
           Padding(
             padding: EdgeInsets.only(top: 25, bottom: 10),
             child: const Center(
                 child: Text(
-              "Hey Hermano!",
+              "Hey Sinan CP!",
               style: TextStyle(
                   color: Colors.black,
                   fontSize: 22,
