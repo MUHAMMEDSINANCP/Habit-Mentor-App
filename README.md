@@ -12,7 +12,7 @@ Clean Architecture : Demonstrates a structured and organized architecture for ro
 
 Flutter State Management : Utilizes Flutter's state management capabilities for seamless functionality.
 
-#### Purpose :
+### Purpose :
 The repository showcases the Habit Mentor App, designed to aid users in tracking and managing their daily routines and habits using intuitive chart-based insights.
 
 ### Feedback :
