@@ -16,4 +16,4 @@ Flutter State Management : Utilizes Flutter's state management capabilities for 
 The repository showcases the Habit Mentor App, designed to aid users in tracking and managing their daily routines and habits using intuitive chart-based insights.
 
 ### Feedback :
-We value your feedback and suggestions to enhance the Habit Mentor App further. Please contact us at cpmuhammedsinan@gmail.com to share your insights.
+I appreciate your valuable feedback and suggestions for further enhancing Habit Mentor App. Feel free to reach out to us at cpmuhammedsinan@gmail.com.
