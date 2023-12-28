@@ -1,16 +1,19 @@
-# habit_mentor_app
+## Habit Mentor App
 
-A new Flutter project.
+Habit Mentor App is a dedicated tool to assist users in tracking their habits and routines efficiently. Developed with clean architecture, clean code, and efficient Flutter state management, this app utilizes the fl_chart package to provide insightful chart tracking for habit details.
 
-## Getting Started
+### Key Highlights :
 
-This project is a starting point for a Flutter application.
+Habit Tracking : Empowers users to monitor and track their daily routines and habits effectively.
 
-A few resources to get you started if this is your first Flutter project:
+Chart Tracking : Leverages the fl_chart package to offer comprehensive chart-based habit details.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Clean Architecture : Demonstrates a structured and organized architecture for robust habit tracking.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter State Management : Utilizes Flutter's state management capabilities for seamless functionality.
+
+#### Purpose :
+The repository showcases the Habit Mentor App, designed to aid users in tracking and managing their daily routines and habits using intuitive chart-based insights.
+
+### Feedback :
+We value your feedback and suggestions to enhance the Habit Mentor App further. Please contact us at cpmuhammedsinan@gmail.com to share your insights.
